@@ -12,4 +12,3 @@ for sklep, produkty in capitalize_list.items():
 
 print (f"W sumie kupuję {sum([len(lista_zakupów[x]) for x in lista_zakupów if isinstance(lista_zakupów[x] , list)])} produktów")
 
-print("Serdecznie pozdrawiam kursantów i mentorów")
